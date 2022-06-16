@@ -1,81 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/my-style.css">
-    
-    <!-- CSS only -->
-    
-    <title>CSS | Training</title>
-
-    <style>
-        h1 {
-            background: greenyellow;
-        }
-    </style>
-</head>
-<body>
-    <h1 style="background: red;">Web Developer</h1>
-    <div class="bar"></div>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/my-style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-<section class="hero-section">
-  <div>
-    <h2 class="regard">Hello RSI...</h2>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae quam nec quam ullamcorper efficitur. Sed id
-    nisi ut massa vehicula ultrices vel a mi. Duis tortor tellus, viverra non leo quis, fringilla commodo neque. Nam et
-    gravida elit. Sed at bibendum lorem. Duis cursus ullamcorper est, aliquam condimentum magna ultrices iaculis. Aenean
+  
+  <title>CSS | Training</title>
+  <style>
+    h1 {
+      background: greenyellow;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="background: red;">Web Developer</h1>
+  <div class="bar"></div>
+
+  <section class="hero-section">
+    <div>
+      <h2 class="regard">Hello RSI...</h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae quam nec quam ullamcorper efficitur. Sed id
+      nisi ut massa vehicula ultrices vel a mi. Duis tortor tellus, viverra non leo quis, fringilla commodo neque. Nam
+      et
+      gravida elit. Sed at bibendum lorem. Duis cursus ullamcorper est, aliquam condimentum magna ultrices iaculis.
+      Aenean
+      volutpat turpis sit amet odio euismod, vitae volutpat justo porttitor. Pellentesque lacus lacus, posuere vel
+      dignissim nec, tincidunt sit amet nisl. Ut placerat congue libero, ac fermentum est imperdiet et. Lorem ipsum
+      dolor
+      sit amet, consectetur adipiscing elit. Vivamus dapibus neque ipsum, vel semper est tincidunt ut. Praesent
+      pellentesque tincidunt ligula, in viverra purus malesuada sit amet. Sed malesuada, ipsum mollis blandit tempus,
+      libero lorem tincidunt ante, in vestibulum diam quam vel ex.
+    </div>
+    <div class="fig">
+      <img class="img-fluid" src="https://web-dev.imgix.net/image/jxu1OdD7LKOGIDU7jURMpSH2lyK2/zrBPJq27O4Hs8haszVnK.svg" alt="web-dev">
+    </div>
+  </section>
+  <div class="crazy-cube">
+    <div class="scene">
+      <div class="cube">
+        <div class="cube__face cube__face--front">front</div>
+        <div class="cube__face cube__face--back">back</div>
+        <div class="cube__face cube__face--right">right</div>
+        <div class="cube__face cube__face--left">left</div>
+        <div class="cube__face cube__face--top">top</div>
+        <div class="cube__face cube__face--bottom">bottom</div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="cube-controls">
+    <p>
+      <label>
+        perspective
+        <input class="perspective-range" type="range" min="1" max="1000" value="400" data-units="px" />
+      </label>
+    </p>
+    <p>
+      <label>
+        perspective-origin x
+        <input class="origin-x-range" type="range" min="0" max="100" value="50" data-units="%" />
+      </label>
+    </p>
+    <p>
+      <label>
+        perspective-origin y
+        <input class="origin-y-range" type="range" min="0" max="100" value="50" data-units="%" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Spin cube
+        <input class="spin-cube-checkbox" type="checkbox" />
+      </label>
+    </p>
+  </div>
+
+
+  <div class="focus-input"><input type="text" placeholder="Focus on me">
+  </div>
+  <div style="display:flex; justify-content: center;">
+    <button>Go</button>
+  </div>
+
+  <p class="para">
+    Sed at bibendum lorem. Duis cursus ullamcorper est, aliquam condimentum magna ultrices iaculis. Aenean
     volutpat turpis sit amet odio euismod, vitae volutpat justo porttitor. Pellentesque lacus lacus, posuere vel
     dignissim nec, tincidunt sit amet nisl. Ut placerat congue libero, ac fermentum est imperdiet et. Lorem ipsum dolor
     sit amet, consectetur adipiscing elit. Vivamus dapibus neque ipsum, vel semper est tincidunt ut. Praesent
     pellentesque tincidunt ligula, in viverra purus malesuada sit amet. Sed malesuada, ipsum mollis blandit tempus,
-    libero lorem tincidunt ante, in vestibulum diam quam vel ex.</div>
-  <div class="fig">
-    <img src="https://web-dev.imgix.net/image/jxu1OdD7LKOGIDU7jURMpSH2lyK2/zrBPJq27O4Hs8haszVnK.svg" alt="web-dev">
+    libero lorem tincidunt ante, in vestibulum diam quam vel ex.
+  </p>
 
-    
-  </div>
-</section>
-<div class="crazy-cube">
-  <div class="scene">
-    <div class="cube">
-      <div class="cube__face cube__face--front">front</div>
-      <div class="cube__face cube__face--back">back</div>
-      <div class="cube__face cube__face--right">right</div>
-      <div class="cube__face cube__face--left">left</div>
-      <div class="cube__face cube__face--top">top</div>
-      <div class="cube__face cube__face--bottom">bottom</div>
-    </div>
-  </div>
-  
-</div>
 
-<p>
-  <label>
-    perspective
-    <input class="perspective-range" type="range" min="1" max="1000" value="400" data-units="px" />
-  </label>
-</p>
-<p>
-  <label>
-    perspective-origin x
-    <input class="origin-x-range" type="range" min="0" max="100" value="50" data-units="%" />
-  </label>
-</p>
-<p>
-  <label>
-    perspective-origin y
-    <input class="origin-y-range" type="range" min="0" max="100" value="50" data-units="%" />
-  </label>
-</p>
-<p>
-  <label>
-    Spin cube
-    <input class="spin-cube-checkbox" type="checkbox" />
-  </label>
-</p>
-<script src="script.js"></script>
+  <input type="range" name="clear" id="clear">
+
+  <script src="script.js"></script>
+
+  <footer>
+    Thanks!
+  </footer>
 </body>
+
 </html>
