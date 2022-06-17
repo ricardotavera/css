@@ -1,0 +1,7 @@
+.demo {
+  border: 1px solid #666;
+}
+
+:host-context(.theme-light) .demo {
+  background-color: #eef;
+}

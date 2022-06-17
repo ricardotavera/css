@@ -24,18 +24,35 @@ body{
     /* flex-direction: row-reverse; */
     /*flex-direction: column; */
     width: 80%;
-    align-items: flex-start;
-    /* align-items: flex-end; /*ubica los contenedores al final*/
+    /* align-items: flex-start; */
+    /*align-items: flex-end; /*ubica los contenedores al final*/
     /* align-items: center; 
     align-items: stretch; alarga los contenedores */
-    height: 600px;
+    /* height: 600px; */
     margin: 0 auto;
-    /* flex-wrap: wrap; comando para acomodar en la pantalla */
+    /* flex-wrap: wrap; /* comando para acomodar en la pantalla */
     /* combinar direction y wrap*/
     flex-flow: row wrap;
-    justify-content: space-between; /*mantienen un espacio entre ellos*/
+    /* justify-content: space-between; */ /*mantienen un espacio entre ellos */
     /* justify-content: space-around; /*mantienen un espacio alrededor de ellos*/
     /* justify-content: space-evenly; mantienen un espacio entre ellos */
     /* justify-content: center; centrados */
 
+}
+
+#titulo{
+    text-align: center;
+    color: red;
+}
+
+.cajita {
+    border: 1px solid #666666;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 120px;
+    /* height: 120px; */
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
 }

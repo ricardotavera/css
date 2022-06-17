@@ -1,0 +1,10 @@
+:host {
+  display: block;
+  border: 1px solid black;
+  font-style: italic;
+}
+
+:host(.active) {
+  font-weight: bold;
+}
+

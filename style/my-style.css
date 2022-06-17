@@ -259,3 +259,11 @@ button:active {
   width: 50%;
   background-color: aliceblue;
 }
+
+.text{
+  padding-left: 20px;
+  padding-right: 20px;
+  /* text-align: center; */
+  text-align: right;
+  /* text-align: left; */
+}
