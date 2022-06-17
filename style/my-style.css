@@ -15,7 +15,9 @@ h1 {
 }
 
 .regard {
-  color: black;;
+  color: black;
+  /* color: #666; */
+  /* color:rgb(255, 99, 71); */
   font-size: 5vw;
   text-align: left;
   margin: 4% 0%;
@@ -242,4 +244,18 @@ button:active {
   body {
     background-color: tomato;
   }
+}
+
+.padd{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  /* padding: 25px 50px 75px 100px; TOP RIGTH BOTTON LEFT*/ 
+}
+
+.tamaño{
+  height: 200px;
+  width: 50%;
+  background-color: aliceblue;
 }
